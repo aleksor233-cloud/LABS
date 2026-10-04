@@ -100,3 +100,4 @@ Control Statements — Operators (`;`, `&&`, `||`) used to control the execution
 
 3.2. Виконання практичних завдань у терміналі
 
+![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
