@@ -8,7 +8,7 @@
 
 1. Словник англійських термінів 
 
-CLI (Command Line Interface) — A text-based user interface used to view and manage computer files and execute commands.
+**CLI (Command Line Interface)** — A text-based user interface used to view and manage computer files and execute commands.
 Shell — A command-line interpreter that translates user-entered text commands into instructions for the operating system kernel.
 Bash (Bourne Again Shell)** — The default command-line shell and script language for most Linux distributions.
 Prompt— A sequence of characters displayed on a command line to indicate that the shell is ready to accept input.
