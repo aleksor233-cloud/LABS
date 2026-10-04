@@ -5,7 +5,7 @@
  1. Ознайомитися з базовими командами CLI-режиму в Linux.
  2. Ознайомитися з базовими текстовими командами термінала в різних ОС.
 
-1. Словник англійських термінів 
+1.Словник англійських термінів 
 
 CLI (Command Line Interface) — A text-based user interface used to view and manage computer files and execute commands.
 
@@ -31,7 +31,7 @@ Quote (Quoting) — Characters (`"`, `'`, `` ` ``) used to control how the shell
 
 Control Statements — Operators (`;`, `&&`, `||`) used to control the execution order and condition of multiple commands.
 
-2. Завдання для попередньої підготовки
+2.Завдання для попередньої підготовки
 
  2.1. Визначення основних поняття
 Командний інтерпретатор — це програма, яка зчитує введений користувачем текст, розпізнає команди та передає їх на виконання операційній системі.
