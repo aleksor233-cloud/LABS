@@ -8,20 +8,29 @@
 
 1. Словник англійських термінів 
 
-**CLI (Command Line Interface)** — A text-based user interface used to view and manage computer files and execute commands.
-Shell — A command-line interpreter that translates user-entered text commands into instructions for the operating system kernel.
-**Bash (Bourne Again Shell)** — The default command-line shell and script language for most Linux distributions.
-Prompt— A sequence of characters displayed on a command line to indicate that the shell is ready to accept input.
-Command — An executable program or built-in directive given to the computer to perform a specific task.
-Option (Flag) — A parameter passed to a command (usually preceded by `-` or `--`) to modify its standard behavior.
-Argument — The target or data (such as a filename or path) upon which a command operates.
-Variable — A named storage location in memory used by the shell to retain data and system configuration state.
-Environment Variable** — A dynamic variable that affects the behavior of processes and shell sessions across the operating system.
-Alias — A user-defined shortcut or custom nickname used to execute a longer command sequence.
-Quote (Quoting) — Characters (`"`, `'`, `` ` ``) used to control how the shell interprets special characters, whitespace, and expansion.
-Control Statements — Operators (`;`, `&&`, `||`) used to control the execution order and condition of multiple commands.
+CLI (Command Line Interface) — A text-based user interface used to view and manage computer files and execute commands.
 
----
+Shell — A command-line interpreter that translates user-entered text commands into instructions for the operating system kernel.
+
+Bash (Bourne Again Shell) — The default command-line shell and script language for most Linux distributions.
+
+Prompt— A sequence of characters displayed on a command line to indicate that the shell is ready to accept input.
+
+Command — An executable program or built-in directive given to the computer to perform a specific task.
+
+Option (Flag) — A parameter passed to a command (usually preceded by `-` or `--`) to modify its standard behavior.
+
+Argument — The target or data (such as a filename or path) upon which a command operates.
+
+Variable — A named storage location in memory used by the shell to retain data and system configuration state.
+
+Environment Variable** — A dynamic variable that affects the behavior of processes and shell sessions across the operating system.
+
+Alias — A user-defined shortcut or custom nickname used to execute a longer command sequence.
+
+Quote (Quoting) — Characters (`"`, `'`, `` ` ``) used to control how the shell interprets special characters, whitespace, and expansion.
+
+Control Statements — Operators (`;`, `&&`, `||`) used to control the execution order and condition of multiple commands.
 
 2. Завдання для попередньої підготовки
 
