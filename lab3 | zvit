@@ -1,35 +1,35 @@
 ЗВІТ ДО ЛАБОРАТОРНОЇ РОБОТИ №3
 з дисципліни: «Операційні системи / Комп'ютерні мережі та системи / Розробка програмного забезпечення»  
-**Тема:** Знайомство з базовими командами CLI-режиму в Linux  
-**Мета:**  
+Тема: Знайомство з базовими командами CLI-режиму в Linux  
+Мета: 
 1. Ознайомитися з базовими командами CLI-режиму в Linux.
 2. Ознайомитися з базовими текстовими командами термінала в різних ОС.
 
-## 1. Словник англійських термінів (English Glossary)
+ 1. Словник англійських термінів
 
-* **CLI (Command Line Interface)** — A text-based user interface used to view and manage computer files and execute commands.
-* **Shell** — A command-line interpreter that translates user-entered text commands into instructions for the operating system kernel.
-* **Bash (Bourne Again Shell)** — The default command-line shell and script language for most Linux distributions.
-* **Prompt** — A sequence of characters displayed on a command line to indicate that the shell is ready to accept input.
-* **Command** — An executable program or built-in directive given to the computer to perform a specific task.
-* **Option (Flag)** — A parameter passed to a command (usually preceded by `-` or `--`) to modify its standard behavior.
-* **Argument** — The target or data (such as a filename or path) upon which a command operates.
-* **Variable** — A named storage location in memory used by the shell to retain data and system configuration state.
-* **Environment Variable** — A dynamic variable that affects the behavior of processes and shell sessions across the operating system.
-* **Alias** — A user-defined shortcut or custom nickname used to execute a longer command sequence.
-* **Quote (Quoting)** — Characters (`"`, `'`, `` ` ``) used to control how the shell interprets special characters, whitespace, and expansion.
-* **Control Statements** — Operators (`;`, `&&`, `||`) used to control the execution order and condition of multiple commands.
+CLI (Command Line Interface) — A text-based user interface used to view and manage computer files and execute commands.
+Shell — A command-line interpreter that translates user-entered text commands into instructions for the operating system kernel.
+Bash (Bourne Again Shell) — The default command-line shell and script language for most Linux distributions.
+Prompt — A sequence of characters displayed on a command line to indicate that the shell is ready to accept input.
+Command — An executable program or built-in directive given to the computer to perform a specific task.
+Option (Flag) — A parameter passed to a command (usually preceded by `-` or `--`) to modify its standard behavior.
+Argument — The target or data (such as a filename or path) upon which a command operates.
+Variable — A named storage location in memory used by the shell to retain data and system configuration state.
+Environment Variable — A dynamic variable that affects the behavior of processes and shell sessions across the operating system.
+Alias — A user-defined shortcut or custom nickname used to execute a longer command sequence.
+Quote (Quoting) — Characters (`"`, `'`, `` ` ``) used to control how the shell interprets special characters, whitespace, and expansion.
+Control Statements — Operators (`;`, `&&`, `||`) used to control the execution order and condition of multiple commands.
 
 ---
 
-## 2. Завдання для попередньої підготовки
+ 2. Завдання для попередньої підготовки
 
-### 2.1. Визначення основних поняття
+ 2.1. Визначення основних поняття
 * **Командний інтерпретатор** — це програма, яка зчитує введений користувачем текст, розпізнає команди та передає їх на виконання операційній системі.
 * **Оболонка (Shell)** — середовище-посередник між користувачем і ядром ОС, що надає інтерфейс командного рядка (CLI) або графічний інтерфейс (GUI).
 * **Команда** — виконуваний файл або вбудована у Shell інструкція, яка змушує комп'ютер виконати визначену дію.
 
-### 2.2. Відповіді на питання підготовки
+ 2.2. Відповіді на питання підготовки
 1. **Інформація у рядку запрошення (prompt):**  
    У замовчуваній формі на кшталт `sysadmin@localhost:~$` показується:
    * Ім'я користувача (`sysadmin`).
