@@ -10,7 +10,7 @@
 
 **CLI (Command Line Interface)** — A text-based user interface used to view and manage computer files and execute commands.
 Shell — A command-line interpreter that translates user-entered text commands into instructions for the operating system kernel.
-Bash (Bourne Again Shell)** — The default command-line shell and script language for most Linux distributions.
+**Bash (Bourne Again Shell)** — The default command-line shell and script language for most Linux distributions.
 Prompt— A sequence of characters displayed on a command line to indicate that the shell is ready to accept input.
 Command — An executable program or built-in directive given to the computer to perform a specific task.
 Option (Flag) — A parameter passed to a command (usually preceded by `-` or `--`) to modify its standard behavior.
