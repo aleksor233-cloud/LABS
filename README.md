@@ -77,7 +77,7 @@ Control Statements — Operators (`;`, `&&`, `||`) used to control the execution
 8. Довідкові команди:
    `man <команда>`, `<команда> --help`, `help <вбудована_команда>`, `info`.
 
-3. Хід роботи
+3.Хід роботи
 
 3.1. Таблиця команд
 
