@@ -103,4 +103,62 @@ Control Statements — Operators (`;`, `&&`, `||`) used to control the execution
 ![Image alt](https://github.com/aleksor233-cloud/LABS/blob/main/Screenshot%202026-10-04%20150403.png)
 
 я не зміг нормально зробити календар в гит баш ,
-тому що він не знаходить таку команду і тому зробив як зміг
+тому що він не знаходить таку команду і тому зробив як зміг.
+
+5. Відповіді на контрольні запитання
+Типи команд у Bash:
+
+Aliases (аліаси) — псевдоніми команд.
+
+Functions (функції) — групи команд у пам'яті.
+
+Built-in (вбудовані) — інтегровані в сам Bash (cd, echo, pwd).
+
+Executable programs (зовнішні) — окремі файли у файловій системі (/bin/ls).
+
+Змінні оточення:
+
+Глобальні змінні, доступні для всіх програм у сесії ($PATH, $USER, $HOME). Переглядаються за допомогою env або export -p.
+
+Змінна $PS1:
+
+Задає формат і вигляд рядка запрошення термінала. Перегляд: echo $PS1.
+
+Зміна $PS1:
+
+Тимчасово змінюється присвоєнням: PS1="new_prompt> ". Рядок запрошення відразу зміниться. Щоб зберегти назавжди, запис export PS1="..." додається у файл ~/.bashrc.
+
+Використання лапок у Bash:
+
+Подвійні " — зберігають пробіли, але розкривають змінні ($VAR) та команди ($(cmd)).
+
+Одинарні ' — сприймають усе всередині як чистий текст (блокують екранування).
+
+Зворотні ` чи $(...) — виконують команду всередині й підставляють її результат.
+
+Інструкції керування:
+
+Об'єднують декілька команд:
+
+; — виконує команди послідовно.
+
+&& — виконує другу команду тільки у разі успіху першої.
+
+|| — виконує другу команду тільки у разі помилки першої.
+
+Різниця між $ та # в кінці запрошення:
+
+$ — звичайний користувач.
+
+# — суперкористувач (root).
+
+Різниця між whereis та locate:
+
+whereis шукає виконувані файли, вихідний код і man-сторінки в системних каталогах у реальному часі.
+
+locate шукає будь-які файли по всій системі за власною кешованою базою даних (працює миттєво, але потребує оновлення бази через updatedb).
+
+6. Висновки
+
+During the completion of Laboratory Work No. 3, we successfully gained practical skills in working with the Linux Command Line Interface (CLI). We studied the key principles of Bash shell operation, including command structures, options, arguments, variables, and aliases. Furthermore, we implemented functions, practiced control statements, and analyzed quote types for command string manipulation. The submission was collaboratively created and tracked within a public Git repository, demonstrating team version control workflow.
+EOF
