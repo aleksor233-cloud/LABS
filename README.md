@@ -5,7 +5,7 @@
  1. Ознайомитися з базовими командами CLI-режиму в Linux.
  2. Ознайомитися з базовими текстовими командами термінала в різних ОС.
 
-1. Словник англійських термінів 
+1.Словник англійських термінів 
 
 CLI (Command Line Interface) — A text-based user interface used to view and manage computer files and execute commands.
 
