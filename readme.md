@@ -73,5 +73,6 @@ ps -ef — детальна таблиця всіх процесів систе�
 
    Так, для повноцінного доступу до CLI та моніторингу в мобільній ОС можна встановити сторонні програми (наприклад, емулятори терміналу, такі як Termux). Вони дозволяють запускати стандартні команди Linux, такі як ps або top, і відправляти сигнали через kill.
 
-   5. Висновки
+5. Висновки
+
 During this laboratory work, I successfully studied the tools for monitoring and managing processes in Linux systems. I learned the difference between static process viewing using the ps command and dynamic, real-time analysis using the top utility. I also practiced my Bash shell skills for job management, including switching tasks between background (bg) and foreground (fg) modes, and stopping tasks with the Ctrl+Z shortcut. Furthermore, I learned how to terminate processes using signals via the kill and killall commands. Finally, I explored the process hierarchy (pstree) and the structure of the /proc pseudo-filesystem, which dynamically stores information about active processes and system hardware in the memory.   
