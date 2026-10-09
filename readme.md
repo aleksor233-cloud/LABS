@@ -54,3 +54,24 @@ ps -ef — детальна таблиця всіх процесів систе�
 Ввів команду jobs і побачив свій призупинений процес top.   
 Командою fg %1 вивів top на екран, знову зупинив через Ctrl+Z, а потім командою bg %1 змусив його працювати у фоні.   
 Повністю завершив роботу цього процесу утилітою killall top.   
+
+4. Відповіді на контрольні запитання
+  
+   Директорія /proc призначена для доступу до даних про активні процеси, інформації про системне обладнання та налаштувань ядра.
+   
+   Динамічно визначати споживання пам'яті процесами можна за допомогою динамічного інтерфейсу команди top. Для цього передбачено колонки RES (обсяг фізичної пам'яті, що використовується) та %MEM (частка доступної фізичної пам'яті).
+
+   Структура процесів нагадує «дерево». Коли ядро завершує завантаження, воно створює найперший процес init та дає йому PID 1. init починає запускати інші системні процеси. Процес, що ініціює створення іншого, називається "батьківським" (parent), а створений процес — "дочірнім" (child). Дерево можна переглянути командою pstree.
+
+   Утиліта ps робить миттєвий "зріз" інформації про систему, а top має динамічний інтерфейс, який регулярно і в режимі реального часу оновлює список.
+
+   Аналог top, утиліта htop (базуючись на загальних відомостях про Linux середовище), має покращений інтерфейс із підтримкою кольорів, вертикальною та горизонтальною прокруткою, а також дозволяє змінювати пріоритети (nice) та посилати сигнали (kill) візуально без ручного вводу PID.
+
+   Сучасні мобільні пристрої (зокрема на базі Android, яка використовує ядро Linux) дозволяють переглядати запущені системні та користувацькі процеси у розділі налаштувань розробника «Служби, що працюють» (Running services).
+
+   Мобільна ОС з коробки приховує термінал для безпеки користувача. Для прямого термінального керування процесами на мобільних пристроях зазвичай потрібен доступ до командного рядка, наприклад, через Android Debug Bridge (ADB shell) з підключенням до комп'ютера.
+
+   Так, для повноцінного доступу до CLI та моніторингу в мобільній ОС можна встановити сторонні програми (наприклад, емулятори терміналу, такі як Termux). Вони дозволяють запускати стандартні команди Linux, такі як ps або top, і відправляти сигнали через kill.
+
+   5. Висновки
+During this laboratory work, I successfully studied the tools for monitoring and managing processes in Linux systems. I learned the difference between static process viewing using the ps command and dynamic, real-time analysis using the top utility. I also practiced my Bash shell skills for job management, including switching tasks between background (bg) and foreground (fg) modes, and stopping tasks with the Ctrl+Z shortcut. Furthermore, I learned how to terminate processes using signals via the kill and killall commands. Finally, I explored the process hierarchy (pstree) and the structure of the /proc pseudo-filesystem, which dynamically stores information about active processes and system hardware in the memory.   
